@@ -44,7 +44,7 @@ jobs:
     steps:
       - name: Clone repository
         run: |
-          git clone https://${{ secrets.PULL_TOKEN }}@${{ secrets.REPO_URL }}.git .
+          git clone https://github.com/MoonTechLab/Selene-Source.git .
         shell: bash
       
       - name: Get version from pubspec.yaml
